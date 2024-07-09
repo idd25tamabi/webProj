@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+
+}
+nav div{
+    cursor: pointer;
+}
+.discover{
+    /* display: none; */
+    display: flex;
+    position: relative;
+    border: 1px solid #000;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+   
+    
+}
+.home, .about, .work, .contact{
+    flex: 1;
+    padding-top: calc(50vh / 5);
+    padding-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    display: flex;
+    
+}
