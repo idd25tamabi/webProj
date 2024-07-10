@@ -22,3 +22,34 @@ canvas {
   align-items: center;
   width: 20%;
 }
+.TextBtm {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  left: -200px;
+  text-align: right;
+  padding: 10px 10px 10px 0;
+  z-index: 10;
+  background-image: url(./assets/groupSvg.svg);
+}
+.TextUp {
+  position: absolute;
+  width: 100%;
+  background-image: url(./assets/upGroup.svg);
+  top: 160px;
+  left: -120px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+.TextUpRight {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+.subTextBtm {
+  position: absolute;
+  bottom: 160px;
+  left: 40px;
+}
