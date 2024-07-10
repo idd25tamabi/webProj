@@ -26,6 +26,9 @@ function init() {
   window.addEventListener("resize", onWindowResize, false);
   window.addEventListener("wheel", onDocumentMouseWheel, false);
 
+  // 添加点击事件监听器
+  window.addEventListener("click", onDocumentClick, false);
+
   animate();
 }
 
@@ -42,6 +45,11 @@ function onDocumentMouseWheel(event) {
   camera.updateProjectionMatrix();
 }
 
+// 点击事件处理函数
+function onDocumentClick() {
+  // 假设新页面在文件夹 "otherpage" 中，文件名为 "index.html"
+  window.location.href = "./pixelCSS/index.html";
+}
 function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
