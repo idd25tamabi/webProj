@@ -4,6 +4,7 @@ body {
 
 .loading {
   width: 100vw;
+  height: 100vh;
   height: 100dvh;
   position: fixed;
   display: flex;
@@ -15,6 +16,8 @@ body {
 }
 
 .morphing_container {
+  width: 100vmin;
+  height: 100vmin;
   width: 100dvmin;
   height: 100dvmin;
   display: flex;
@@ -33,7 +36,8 @@ body {
   flex-direction: row;
   img {
     height: 10vmin;
-    color: #272727;
+    fill: #272727;
+    pointer-events: none;
   }
 }
 .r {
@@ -206,6 +210,7 @@ body {
 }
 
 .d_move {
+  transform: translate(-3vmin, -5vmin);
   transform: translate(-3dvmin, -5dvmin);
 }
 
