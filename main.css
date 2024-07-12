@@ -26,7 +26,7 @@ body {
 .morphing {
   height: 15vmin;
   width: 12vmin;
-  filter: contrast(25) blur(1px);
+  filter: contrast(1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ body {
 
 @keyframes r {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
@@ -224,7 +224,7 @@ body {
 
 @keyframes e {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
@@ -236,7 +236,7 @@ body {
 }
 @keyframes n {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
@@ -248,7 +248,7 @@ body {
 }
 @keyframes d {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
@@ -260,7 +260,7 @@ body {
 }
 @keyframes ee {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
@@ -272,7 +272,7 @@ body {
 }
 @keyframes rr {
   0%,
-  5% {
+  19% {
     filter: blur(0px);
     opacity: 1;
   }
