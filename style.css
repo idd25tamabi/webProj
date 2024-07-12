@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* background-color: transparent; */
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+.TextBtm {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  left: -200px;
+  text-align: right;
+  padding: 10px 10px 10px 0;
+  z-index: 10;
+  background-image: url(./assets/groupSvg.svg);
+}
+.TextUp {
+  position: absolute;
+  width: 100%;
+  background-image: url(./assets/upGroup.svg);
+  top: 160px;
+  left: -120px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+.TextUpRight {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+.subTextBtm {
+  position: absolute;
+  bottom: 160px;
+  left: 40px;
+}
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  /* background-color: #f0f0f0; */
+}
+.canvas-container {
+  display: flex;
+  gap: 20px; /* 间隔 */
+}
+canvas {
+  border: 1px solid #ccc;
+}
